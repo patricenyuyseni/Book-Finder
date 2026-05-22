@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { searchBooks } from "../Service/api";
+import { searchBooks } from "../service/api";
 
 export default function useBooks(query, page) {
   const [books, setBooks] = useState([]);
